@@ -1,0 +1,30 @@
+ifeng_job:
+    path:     /
+    defaults: { _controller: "ifengJobeetBundle:Job:index" }
+
+ifeng_job_show:
+    path:     /{id}/show
+    defaults: { _controller: "ifengJobeetBundle:Job:show" }
+
+ifeng_job_new:
+    path:     /new
+    defaults: { _controller: "ifengJobeetBundle:Job:new" }
+
+ifeng_job_create:
+    path:     /create
+    defaults: { _controller: "ifengJobeetBundle:Job:create" }
+    methods:  POST
+
+ifeng_job_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "ifengJobeetBundle:Job:edit" }
+
+ifeng_job_update:
+    path:     /{id}/update
+    defaults: { _controller: "ifengJobeetBundle:Job:update" }
+    methods:  [POST, PUT]
+
+ifeng_job_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "ifengJobeetBundle:Job:delete" }
+    methods:  [POST, DELETE]

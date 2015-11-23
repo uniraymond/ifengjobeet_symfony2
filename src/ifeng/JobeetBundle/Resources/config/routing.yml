@@ -1,0 +1,7 @@
+ifeng_jobeet_ifeng_job:
+    resource: "@ifengJobeetBundle/Resources/config/routing/job.yml"
+    prefix:   /ifeng_job
+
+ifeng_jobeet_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: ifengJobeetBundle:Default:index }

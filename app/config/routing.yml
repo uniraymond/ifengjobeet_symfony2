@@ -1,0 +1,11 @@
+ifeng_jobeet:
+    resource: "@ifengJobeetBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ifeng_jobeet:
+    resource: "@ifengJobeetBundle/Resources/config/routing/job.yml"
+    prefix:   /job
+
+#app:
+#    resource: "@AppBundle/Controller/"
+#    type:     annotation
